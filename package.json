@@ -1,0 +1,31 @@
+{
+  "name": "adacoin-mvp-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testX": "jest --passWithNoTests --watchAll --config ./jest.config.json",
+    "test": "jest --passWithNoTests --config ./jest.config.json",
+    "dev": "node ./adacoin/src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ada-Apprenticeships/AdaCoin-MVP-1.git"
+  },
+  "keywords": [],
+  "author": "Mike W.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ada-Apprenticeships/AdaCoin-MVP-1/issues"
+  },
+  "homepage": "https://github.com/Ada-Apprenticeships/AdaCoin-MVP-1#readme",
+  "devDependencies": {
+    "jest": "^28.1.2",
+    "node": "^18.4.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "npm": "^8.13.2",
+    "uuid": "^8.3.2"
+  }
+}
